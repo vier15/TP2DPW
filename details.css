@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.background {
+    background-image: url(Assets/yamanashi.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.details {
+    height: 500px;
+    width: 1000px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.banner-title {
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.banner img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 30px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 60px;
+    color: #bc002d;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.button :hover {
+    color: rgb(0, 0, 0);
+}

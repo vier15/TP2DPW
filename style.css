@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Header */
+header{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: 40px 170px;
+}
+
+nav {
+    background-color: #bc002d;
+    height: auto;
+    width: auto;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.header-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-title {
+    color:#bc002d;
+}
+
+.header-logo img{
+    height: 100px;
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template-rows: 550px 500px 500px 500px 500px;
+}
+
+.banner {
+    height: auto;
+    width: auto;
+    background-image: url(Assets/fujiyama.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.banner img {
+    height: 1000px;
+}
+
+.content-1 {
+    background-color: #bc002d;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-1-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.content-1-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.content-1-section-1 {
+    height: 300px;
+    width: 500px;
+    font-size: large;
+    color: white;
+}
+
+.content-1-section-2 {
+    height: 300px;
+    width: 500px;
+}
+
+.content-1-section-2 img {
+    height: 90%;
+    width: 100%;
+}
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-image: url(Assets/tokyo-tower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.content-2-section-1 {
+    height: 340px;
+    width: 220px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.c2s1-icon img {
+    height: 70px;
+}
+
+.c2s1-text {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.content-2-section-2 {
+    height: 340px;
+    width: 220px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.c2s2-icon img {
+    height: 70px;
+}
+
+.c2s2-text {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.content-2-section-3 {
+    height: 340px;
+    width: 220px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.c2s3-icon img {
+    height: 70px;
+}
+
+.c2s3-text {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    
+}
+
+.content-3-title {
+    color: #bc002d;
+    font-size: large;
+    font-weight: 900;
+}
+
+.content-3-section-1 {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.c3s1-image img {
+    height: 350px;
+}
+
+.c3s1-text {
+    width: 200px;
+    height: 350px;
+    background-color: #bc002d;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.c3s1-text a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.c3s1-text a:hover {
+    font-weight: bold;
+    color: #000000;
+}
+
+.c3s1-text h2 {
+    margin-top: 40%;
+}
+
+.content-4 {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 50% 50%;
+}
+
+.content-4-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+
+.c4s1-title {
+    color: #bc002d;
+}
+
+.c4s1-image img {
+    height: 300px;
+}
+
+.content-4-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+
+.c4s2-title {
+    color: #bc002d;
+}
+
+.c4s2-contact {
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    background-color: #bc002d;
+}
+
+.contact-form input {
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.contact-name {
+    color: #ffffff;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 90px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.contact-message {
+    color: #ffffff;
+}
+
+.submit-button {
+    color: #bc002d;
+    background-color: #ffffff;
+}
+
+footer {
+    height: 100px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #bc002d;
+}
